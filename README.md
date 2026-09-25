@@ -2,7 +2,8 @@
 
 A local four-camera dashboard for **Wyze Cam v4 cameras with RTSP-enabled
 firmware**, running entirely on a Raspberry Pi 4 or Pi 5. View the grid or a
-focused camera from any browser on your LAN and save manual clips. No Wyze
+focused camera from any browser on your LAN, save manual clips and make
+full-resolution timelapses of up to 24 hours. No Wyze
 account, no cloud, no subscription, and no camera-management credentials are
 needed by this application.
 
@@ -16,7 +17,10 @@ with native MP4 recording if you'd rather run this on a PC than a Pi.
 
 Displays all configured cameras in an adaptive grid, with HD/Eco stream
 selection, per-camera reconnect, an enlarged main-stream view, and manual clip
-recording (start, stop, download). Smooth30 optionally blends frames in the
+recording (start, stop, download). **Timelapse** captures any combination of
+cameras at full 2560x1440 for up to 24 hours, starting now or on a schedule,
+and renders a grid or per-camera video on the Pi, with no browser left open.
+See [Timelapse](docs/TIMELAPSE.md). Smooth30 optionally blends frames in the
 viewing browser for a smoother-looking display; it does not add captured
 detail — see [Performance](docs/PERFORMANCE.md) for what that setting actually
 does and doesn't do.
@@ -39,8 +43,8 @@ the Pi needing to decode four pictures itself.
 - Targets Raspberry Pi OS ARM32/ARM64, Lite or Desktop. Real tests cover Pi 4
   ARM32 and Pi 5 ARM64 with an external browser viewer. Four cameras were
   tested; other counts depend on your network and viewing device.
-- This is a manual-clip local dashboard, not a continuous NVR: no automatic
-  event recording, no motion detection, no searchable history. If you need
+- This is a manual-clip and timelapse dashboard, not a continuous NVR: no
+  automatic event recording, no motion detection, no searchable history. If you need
   those, you need a fuller recorder setup on top of or instead of this.
 - Use it on a trusted LAN or behind a VPN — there is no login screen.
 
@@ -66,6 +70,7 @@ attached monitor is a different, untested workload). See
 - [Pi compatibility matrix](raspberry-pi/COMPATIBILITY.md) — what's certified.
 - [Camera and configuration reference](docs/CONFIGURATION.md).
 - [Platform features and recording](docs/PLATFORM-FEATURES.md).
+- [Timelapse](docs/TIMELAPSE.md) — capture, layouts, storage and limits.
 - [Architecture](docs/ARCHITECTURE.md) — the full stream path.
 - [Troubleshooting](docs/TROUBLESHOOTING.md).
 - [Operation, backup, recovery and removal](docs/OPERATIONS.md).

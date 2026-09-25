@@ -1,6 +1,6 @@
 {
   "name": "wyze-pi-camera-dashboard",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Local four-camera dashboard for Wyze Cam v4 (RTSP firmware) on a Raspberry Pi 4 or 5 - go2rtc + WebRTC passthrough, no cloud, no transcoding.",
   "scripts": {
     "test": "node --test tests/*.test.js",
