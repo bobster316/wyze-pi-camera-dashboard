@@ -52,6 +52,7 @@ $files = @(
     'src/timelapse-ui.js',
     'src/styles.css',
     'src/favicon.svg',
+    'src/favicon-pi4.svg',
     'src/vendor/video-rtc.js',
     'raspberry-pi/.env.example',
     'raspberry-pi/COMPATIBILITY.md',
@@ -70,6 +71,7 @@ $files = @(
     'raspberry-pi/wyze-monitor',
     'raspberry-pi/wyze-monitor.desktop',
     'raspberry-pi/wyze-monitor.svg',
+    'raspberry-pi/wyze-monitor-pi4.svg',
     'raspberry-pi/wyze-monitor-url.service'
 )
 
