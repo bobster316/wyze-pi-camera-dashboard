@@ -2,7 +2,8 @@
 
 This is the Pi-only copy of the main repository `go2rtc-wyze-monitor`
 (local: `../go2rtc-wyze-monitor`). The full project handover is there:
-`../go2rtc-wyze-monitor/HANDOVER-2026-09-28-CODEX.md`.
+`../go2rtc-wyze-monitor/HANDOVER-2026-09-28-CODEX.md`; the latest is
+`../go2rtc-wyze-monitor/HANDOVER-2026-09-30-STOP-DELETE-SUMMARY.md`.
 
 - Make Pi-side changes in the main repo first, then mirror them here.
   Here the red favicon is `src/favicon.svg` (main repo: `src/favicon-pi.svg`).
