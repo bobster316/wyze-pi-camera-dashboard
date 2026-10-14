@@ -1,8 +1,12 @@
 # Agent notes
 
+Latest session: `../go2rtc-wyze-monitor/HANDOVER-2026-10-04-PRINTER-CAMERAS.md`
+(printer cameras, mixed sources, aspect ratios, adaptive camera selection and
+information strips; includes final deployment and verification state).
+
 This is the Pi-only copy of the main repository `go2rtc-wyze-monitor`
 (local: `../go2rtc-wyze-monitor`). The full project handover is there:
-`../go2rtc-wyze-monitor/HANDOVER-2026-09-28-CODEX.md`; the latest is
+`../go2rtc-wyze-monitor/HANDOVER-2026-09-28-CODEX.md`; the September backlog is
 `../go2rtc-wyze-monitor/HANDOVER-2026-09-30-STOP-DELETE-SUMMARY.md`.
 
 - Make Pi-side changes in the main repo first, then mirror them here.
